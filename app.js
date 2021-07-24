@@ -20,7 +20,7 @@ function formatAndSendTweet(event) {
             : ` ${tokenSymbol}`
     );
 
-    const tweetText = `${tokenName} bought for ${formattedTokenPrice}${formattedPriceSymbol} ($${formattedUsdPrice}) ${openseaLink}`;
+    const tweetText = `${tokenName} bought for ${formattedTokenPrice}${formattedPriceSymbol} ($${formattedUsdPrice}) #NetherDreams ${openseaLink}`;
 
     console.log(tweetText);
 
@@ -50,4 +50,4 @@ setInterval(() => {
     }).catch((error) => {
         console.error(error);
     });
-}, 60000);
+}, 65000);
